@@ -4,7 +4,7 @@
   "type": "widget",
   "version": "1.18.0",
   "exbVersion": "1.18.0",
-  "author": "Esri R&D Center Beijing",
+  "author": "Esri R&D Center Beijing - Gonzalo",
   "description": "Widget de prueba con filtrado por consola",
   "properties": {
     "useMapWidgetIds": [],
