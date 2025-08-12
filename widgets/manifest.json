@@ -1,0 +1,37 @@
+{
+  "name": "test-3",
+  "label": "test-3",
+  "type": "widget",
+  "version": "1.18.0",
+  "exbVersion": "1.18.0",
+  "author": "Esri R&D Center Beijing",
+  "description": "Widget de prueba con filtrado por consola",
+  "properties": {
+    "useMapWidgetIds": [],
+    "useDataSources": [],
+    "layerIds": {
+      "type": "array",
+      "title": "Seleccione las capas a exponer",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    }
+  },
+  "capabilities": [
+    "useMapWidget",
+    "dataSource"
+  ],
+  "dataSource": {
+    "supportedTypes": [
+      "FeatureLayer"
+    ]
+  },
+  "settingPanel": {
+    "uri": "setting/setting.tsx"
+  },
+  "defaultSize": {
+    "width": 800,
+    "height": 500
+  }
+}

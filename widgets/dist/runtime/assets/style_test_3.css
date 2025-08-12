@@ -1,0 +1,54 @@
+.widget-chatbot {
+  background-color: #ebf5fd;
+  border-radius: 5px;
+  font: 1em sans-serif;
+  color: black;
+  max-height: 100%;
+}
+
+/* Burbujas del usuario */
+.message-user .message-bubble {
+  background-color: #6ff994;
+  color: #000;
+  border-radius: 5px !important;
+  display: inline-block;
+  /* max-width: 75%; */
+  max-width: 75%;
+}
+
+/* Burbujas del bot */
+.message-bot .message-bubble {
+  background-color: #60e588;
+  color: #000;
+  border-radius: 5px !important;
+  display: inline-block;
+  max-width: 75%;
+}
+
+.chat-messages {
+  overflow-y: auto;
+  max-height: 600px;
+  /* height: 100%; */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+/* Animación opcional */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.message-user,
+.message-bot {
+  animation: fadeIn 0.3s ease-in-out;
+}
